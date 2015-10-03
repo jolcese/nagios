@@ -184,8 +184,8 @@ if node['platform_family'] == 'rhel' || node['platform_family'] == 'fedora'
 end
 
 nagios_conf 'timeperiods'
-nagios_conf 'contacts'
 nagios_conf 'commands'
+nagios_conf 'contacts'
 nagios_conf 'hosts'
 nagios_conf 'hostgroups'
 nagios_conf 'templates'
